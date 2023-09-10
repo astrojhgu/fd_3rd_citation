@@ -23,3 +23,8 @@ Title: {Cosmology from the Highly-Redshifted 21 cm Line}
 Number of all cit: 26
 Number of 3rd cit: 21
 ```
+
+# 可能的bug
+1. 可能无法正确处理存在middle name的情况
+2. 可能无法处理同一个名字存在多种拼法的情况
+3. 可能无法正确处理重名的情况
