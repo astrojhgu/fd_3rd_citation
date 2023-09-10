@@ -16,6 +16,7 @@ authors=this_paper.persons['author']
 
 cnt_cite_3rd=0
 
+print("Items with common authors:----------vvv\n")
 for k,v in citation.entries.items():
     cit_authors=v.persons['author']
     ca=common_authors(authors, cit_authors)
@@ -23,7 +24,8 @@ for k,v in citation.entries.items():
         print(f"{k} : {ca}")
     else:
         cnt_cite_3rd+=1
-
+print("\nEnd of items with common authors----^^^\n")
+print("Summary\n")
 print(f"id: {this_id}")
 print(f"Title: {this_paper.fields['title']}")
 print(f"Number of all cit: {len(citation.entries)}")
