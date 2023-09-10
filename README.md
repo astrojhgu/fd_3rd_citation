@@ -13,11 +13,18 @@
 # 示例
 ```bash
 % ./check_citation.py example/2009astro2010S..82F.bib example/2009astro2010S..82F.cit.bib
+Items with common authors:----------vvv
+
 2013PhRvD..87d3005D : [Person('{Tegmark}, Max')]
 2012MNRAS.419.3491L : [Person('{Tegmark}, Max')]
 2011MNRAS.413.1174P : [Person('{Peterson}, Jeffrey B.')]
 2011JCAP...04..038B : [Person('{Loeb}, Abraham')]
 2011MNRAS.410.2075L : [Person('{Tegmark}, Max'), Person('{Zaldarriaga}, Matias')]
+
+End of items with common authors----^^^
+
+Summary
+
 id: 2009astro2010S..82F
 Title: {Cosmology from the Highly-Redshifted 21 cm Line}
 Number of all cit: 26
